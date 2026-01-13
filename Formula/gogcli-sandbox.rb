@@ -2,27 +2,27 @@ class GogcliSandbox < Formula
   desc "Policy-enforced broker and client for gogcli"
   homepage "https://github.com/cashwilliams/gogcli-sandbox"
   license "MIT"
-  version "0.0.6"
+  version "0.0.7"
 
   on_macos do
     on_arm do
       url "https://github.com/cashwilliams/gogcli-sandbox/releases/download/v#{version}/gogcli-sandbox_v#{version}_darwin_arm64.tar.gz"
-      sha256 "968c5926cd13a17a11550078924759cb4a7eefbabf6f469ee9726a97ebf1fe2e"
+      sha256 "44a308c9c55244aebe6403a2769b5d73db5a1cab77706346a3c8c14ac009c794"
     end
     on_intel do
       url "https://github.com/cashwilliams/gogcli-sandbox/releases/download/v#{version}/gogcli-sandbox_v#{version}_darwin_amd64.tar.gz"
-      sha256 "0cc3fedaf5b1d505b663288e2f427733a3f16b364da7b5f8150fbb24d678e9b6"
+      sha256 "5bd213a7442263a710bbfe02c91de6f41fc907342e5192001bba2fdbb426bbf3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/cashwilliams/gogcli-sandbox/releases/download/v#{version}/gogcli-sandbox_v#{version}_linux_arm64.tar.gz"
-      sha256 "4ffc89f447947705c22b45d0aea7e4e75cba2ee084e3287eba18374dfa3d1537"
+      sha256 "346bcab663e72008abb913832d58ce8f9dceb62f4179e17a1fd97e4484f3fbff"
     end
     on_intel do
       url "https://github.com/cashwilliams/gogcli-sandbox/releases/download/v#{version}/gogcli-sandbox_v#{version}_linux_amd64.tar.gz"
-      sha256 "8b5f19ce0d1db9fa5758ca6539457ae2660547b147697f244eeba9de7f55dc7b"
+      sha256 "89a19e47a5e3c78ab6e8b9902f7334aaf19c3bffb91ff64e4c4e30521d1f9d8a"
     end
   end
 
